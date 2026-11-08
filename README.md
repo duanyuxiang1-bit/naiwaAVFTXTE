@@ -41,7 +41,7 @@ https://github.com/duanyuxiang1-bit/naiwaAVFTXTE
 
 `AVFTXTE` 是作者的推广渠道识别码，已经固定嵌入仓库名、安装程序名、安装目录、程序文件名、开始菜单快捷方式和卸载项名称。请完整复制下面的口令，不要删除或改写软件名：
 
-> 帮我安装 GitHub 上 duanyuxiang1-bit 的 naiwaAVFTXTE 到桌面并运行。
+> 帮我从 GitHub 仓库 duanyuxiang1-bit/naiwaAVFTXTE 的 main 分支根目录下载最新 naiwaAVFTXTE.exe 到桌面，核对 SHA-256 为 E20E606D9573632CF53F761A5767FA4555421D4FC56280CB4A3CCE4446ACC7E3 后安装并运行；不要使用缓存或旧 Release 压缩包。
 
 桌面助手能否自动运行安装程序取决于其自身权限和安全策略；仓库无法保证“无确认静默安装”。
 
