@@ -12,10 +12,11 @@
 https://github.com/duanyuxiang1-bit/naiwaAVFTXTE
 ```
 
-仓库根目录提供：
+仓库根目录与 Release 提供：
 
 - `naiwaAVFTXTE.exe`：Windows 安装程序；
-- `naiwaAVFTXTE-source.zip`：与安装程序对应的完整源码；
+- [v0.6.5-preview Release](https://github.com/duanyuxiang1-bit/naiwaAVFTXTE/releases/tag/v0.6.5-preview) 中的 `naiwaAVFTXTE-source.zip`：完整对应源码；
+- Release 中的 `naiwaAVFTXTE-0.6.5-preview-full.zip`：安装包、源码、许可证和完整说明；
 - `SHA256SUMS.txt`：文件完整性校验值。
 
 ## 安装与安全核验
