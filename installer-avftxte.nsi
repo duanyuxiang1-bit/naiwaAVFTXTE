@@ -2,6 +2,7 @@
 !include "MUI2.nsh"
 !include "LogicLib.nsh"
 !include "WinVer.nsh"
+!include "x64.nsh"
 Name "naiwaAVFTXTE（奶蛙低占用2D版）"
 OutFile "D:\naiwaAVFTXTE\naiwaAVFTXTE.exe"
 InstallDir "$LOCALAPPDATA\Programs\naiwaAVFTXTE"
@@ -27,9 +28,7 @@ Function .onInit
   MessageBox MB_ICONSTOP "此版本需要 Windows 10/11 x64。"
   Abort
  ${EndIf}
- System::Call 'kernel32::GetCurrentProcess() p .r0'
- System::Call 'kernel32::IsWow64Process(p r0, *i .r1)'
- ${If} $1 == 0
+ ${IfNot} ${RunningX64}
   MessageBox MB_ICONSTOP "此版本只支持 Windows x64。"
   Abort
  ${EndIf}
